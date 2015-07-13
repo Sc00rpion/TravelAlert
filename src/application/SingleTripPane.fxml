@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="165.0" prefWidth="541.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SingleTripPaneController">
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+   <children>
+      <Button fx:id="opisOferty" layoutX="445.0" layoutY="126.0" mnemonicParsing="false" text="Opis oferty" />
+      <Label fx:id="nazwa" layoutX="301.0" layoutY="14.0" prefHeight="34.0" prefWidth="131.0" text="Egipt">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="img" fitHeight="155.0" fitWidth="275.0" layoutX="6.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="cena" alignment="CENTER_RIGHT" layoutX="419.0" layoutY="48.0" prefHeight="53.0" prefWidth="102.0" text="1099" textFill="#fa9e00de">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+   </children>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+</Pane>
